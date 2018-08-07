@@ -1,0 +1,16 @@
+#默认使用配置
+spring:
+  profiles:
+    active: dev
+
+
+
+
+mybatis:
+  basepackage: com.wantdo.mybatis.entity
+  xmlLocation: classpath:mapper/*.xml
+
+#公共配置与profiles选择无关
+#mybatis:
+#  typeAliasesPackage: com.wantdo.mybatis.entity
+#  mapperLocations: classpath:mapper/*.xml

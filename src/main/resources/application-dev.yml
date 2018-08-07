@@ -1,0 +1,20 @@
+#ø™∑¢≈‰÷√
+#sprfing:
+##  proiles: dev
+
+spring:
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    name: az-mws
+    url: jdbc:mysql://localhost:3306/look?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: test
+    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+#datasource:
+#  url: jdbc:mysql://localhost:3306/test
+#    username: root
+#    password: test
+#    driver-class-name: com.mysql.jdbc.Driver
